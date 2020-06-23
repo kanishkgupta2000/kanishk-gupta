@@ -15,10 +15,6 @@ const App = () => {
 		<Route exact path='/' component={Index}/>
 		<Route exact path='/home' component={Index}/>
 		<Route exact path='/about' component={About}/>
-		{/* <Route exact path='/contact' component={Contact}/> */}
-		{/* <Route exact path='*' component={Index}/> */}
-
-    {/* <Route exact path='/work' component={Work}/> */}
 		</Switch>
 		
     <Footer/>
