@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/kanishk-gupta/static/js/main.ae0122bb.chunk.js",
-    "main.js.map": "/kanishk-gupta/static/js/main.ae0122bb.chunk.js.map",
+    "main.js": "/kanishk-gupta/static/js/main.09619ab3.chunk.js",
+    "main.js.map": "/kanishk-gupta/static/js/main.09619ab3.chunk.js.map",
     "runtime~main.js": "/kanishk-gupta/static/js/runtime~main.80adcf5c.js",
     "runtime~main.js.map": "/kanishk-gupta/static/js/runtime~main.80adcf5c.js.map",
-    "static/js/2.3d5b4185.chunk.js": "/kanishk-gupta/static/js/2.3d5b4185.chunk.js",
-    "static/js/2.3d5b4185.chunk.js.map": "/kanishk-gupta/static/js/2.3d5b4185.chunk.js.map",
+    "static/js/2.b63bea6d.chunk.js": "/kanishk-gupta/static/js/2.b63bea6d.chunk.js",
+    "static/js/2.b63bea6d.chunk.js.map": "/kanishk-gupta/static/js/2.b63bea6d.chunk.js.map",
     "index.html": "/kanishk-gupta/index.html",
-    "precache-manifest.60f241571f58d1dd04fbdda5b8c01f23.js": "/kanishk-gupta/precache-manifest.60f241571f58d1dd04fbdda5b8c01f23.js",
+    "precache-manifest.1745d9fc2a3c52b7662f5ca721a25efc.js": "/kanishk-gupta/precache-manifest.1745d9fc2a3c52b7662f5ca721a25efc.js",
     "service-worker.js": "/kanishk-gupta/service-worker.js"
   }
 }
