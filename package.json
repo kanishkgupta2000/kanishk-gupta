@@ -1,25 +1,37 @@
 {
+  "homepage":"http://kanishkgupta2000.github.io/kanishk-gupta",
   "name": "portfolio2",
-  "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
-  "scripts": {
-    "start":"node server.js",
-    "server":"nodemon server.js",
-    "client": "npm start --prefix client",
-    "clientinstall":"npm install --prefix client",
-    "dev": "concurrently  \"npm run client\"",
-    "heroku-postbuild":"NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
-  },
-  "author": "kanishk gupta",
-  "license": "ISC",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "concurrently": "^4.1.2",
-    "config": "^3.2.2",
-    "connect-flash": "^0.1.1",
-    "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "mongoose": "^5.6.9",
-    "nodemon": "^1.19.1"
-  }
+    "axios": "^0.19.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "http://127.0.0.1:5001"
 }
